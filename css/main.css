@@ -257,7 +257,7 @@ div.activea{
 	
 }
 #flickrgallery{
-	height: 600px;
+	height: 100%;
 	margin-top: 20px;
 }
 .myImg {
@@ -308,18 +308,18 @@ div.activea{
 .aboutme2{
 	height: 100%;
 	width: 100%;
-	border-bottom: 3px solid;
+	
 
 }
 .aboutme3{
 	height: 100%;
 	width: 100%;
-	border: 3px solid;
+	
 }
 .aboutme4{
 	height: 100%;
 	width: 100%;
-	border: 3px solid;
+	
 }
 .aboutme1text{
 	position: relative; 
@@ -451,12 +451,11 @@ div.activea{
 	}
 }
 @media(max-width: 767px){
-	#flickrgallery{
-		height: 450px;
-	}
 	.nav li a:before, .nav li a:after {
 		left:15%;
 	}
-	
+	.header{
+		top: 50%;
+	}
 	
 }
