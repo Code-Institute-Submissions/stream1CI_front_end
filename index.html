@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Fodor Flora | Portfolio</title>
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/3dcarousel.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.0.10/font-awesome-animation.css">
+</head>
+<body>
+<div id="wrapper">
+  <div id="hero" >
+    <nav class="navbar navbar-inverse fadeanimation2" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+      </div><!--......................................................NAVBAR HEADER.........-->
+      <div class="container">            
+        <div id="navbar" class="navbar-collapse collapse navbar-right">
+          <ul class="nav navbar-nav">
+            <li class="navli"><a href="#myportfolio" id="anchor1" class="navportfolio smoothScroll">Portfolios</a></li>
+            <li class="navli"><a href="#bio" id="anchor2" class="navbio smoothScroll">About me</a></li>
+            <li class="navli"><a href="#icons" id="anchor3" class="navcontact smoothScroll">Contacts</a></li>
+          </ul>
+        </div><!--.......................................................id=navbar.........-->
+      </div>  
+    </nav>
+     <div class="header fadeanimation2">
+          <h1> Flora Fodor Portfolio page</h1>
+          <h3> created by: Mark Stybaniewicz</h3>
+        </div>
+</div><!--.......................................................................NAVBAR-wrapper............-->
+
+    <div id="myportfolio"><h1 class="text-center ">My Portfolios</h1></div>
+
+    <div class="containert " data-ride="carousel"><!--...........................................................main Carousel.............-->
+      <div class="carousel ">
+        <div class="a item1 active"> <img src=imgs/bigpic4-min.jpg style="width:100%" alt="First slide"></div>
+        <div class="b item1"> <img src="imgs/bigpic11.jpg" style="width:100%" data-src="" alt="Second  slide"></div>
+        <div class="c item1"> <img src="imgs/bigpic1-min.jpg" style="width:100%"  data-src="" alt="Third slide"></div>
+        <div class="d item1"> <img src="imgs/bigpic15.jpg" style="width:100%"  data-src="" alt="Fourth slide"></div>
+        <div class="e item1"> <img src="imgs/bigpic3-min.jpg" style="width:100%"  data-src="" alt="Fifth slide"></div>
+        <div class="f item1"> <img src="imgs/bigpic5-min.jpg" style="width:100%"  data-src="" alt="Sixth slide"></div>
+      </div>
+      <a class="prev" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="next" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div>
+    <!--.......................................................................................main Carousel............-->
+
+
+    <div class="secondCarousel" ><!--...............................................................................second back up Carousel............-->
+     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="imgs/bigpic4.jpg" alt="...">
+        </div>
+        <div class="item">
+          <img src="imgs/bigpic16.jpg" alt="...">
+        </div>
+         <div class="item">
+            <img src="imgs/bigpic3.jpg" alt="...">
+          </div>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!--.................................................................................................second Backup Carousel end..........-->
+  
+    
+      <div id="flickrgallery">
+        <div class="galleryBody">
+          <div class="col-sm-12 col-md-12 col-lg-6" id="largeImgWindow">
+            <img id="myImg" class=" img-responsive largeimg" src="https://farm4.staticflickr.com/3677/32176225823_0167fd41e5.jpg">
+          </div>
+          <div class="col-sm-12 col-md- col-lg-6 flickrbody">
+            <ul id="flickr"></ul>
+          </div>
+          <div class="text-center scrollinfo"><i class="fa fa-arrow-left" aria-hidden="true"></i>Scroll for more pictures<i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+        </div>
+      </div>
+
+    <div id="bio">
+                  
+                  
+                  <div class="aboutme2">
+                        <div><h1 class="text-center aboutmetitle">About Me</h1></div>
+                        <div class="aboutme2front">
+                            <p class="text-center aboutme2text"> My name is Flora Fodor. I was born in Hungary, 26th,May,1997.At the moment i work with a model agency called Avantage Models.
+                            I was sixteen when I started thinking about pursuing a model career, but I had no idea about the industry at all. 
+                            Then i found a agency so luckily I had my first test photos in my hands. 
+                            With those photos i was able to find a new agency with much more possibilites.</p>
+                        </div>
+                  </div>
+                  <div class="parallax1"></div>
+                  <div class="aboutme3">
+                        <p class="aboutme3text">I started to learn more about the model industry in the heart of Europe,and also that what are the REAL commitments of being a model. With modeling i could visit different places like: Antalya, Barcelona or Budapest where i could work with, and learn from others.At the age of 17 I joined Avantage Models. They helped me a lot, and I learned a lot from them about the industry, and how to be a good model.</p>
+                  </div>
+                  <div class="parallax2"></div>
+                  <div class="aboutme4">
+                        <p class="aboutme4text">What I`m being asked the most is: "How a photoshoot looks like?"
+                        A shooting can take up to 6 hours. It depends on the preparations(makeup, hair)
+                        When you are at a photoshoot, the first step is to get your make up, and hair done by a proffesional make-up man and hairdresser.
+                        Then the stylist helps you to change your clothes and after that it's only you, the photographer and the camera.
+                        </p>
+                  </div>
+                  <div class="parallax3"> </div>      
+    </div>
+    
+    <div class="videosection">
+    <h1 class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center vidtitle">A photoshooting in action!</h1>
+      <div class="video"><!--............................................................video...........................-->
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7458yOzSWHU"></iframe>
+      </div><!--...........................................................videoEND.......................-->
+    </div>
+
+    <footer id="icons">
+    <h1 class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center contacttitle">Contacts</h1>
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <ul id="customericons">
+            <li><p class="customertitle">Flora Fodor </p></li>
+            <li class="customerli"><a class="hovereffect " href="mailto:florczi97@gmail.com?Subject=Dear%20Flora" target="_top"><i class="fa fa-envelope fa-4x faa-ring animated-hover" aria-hidden="true"></i><span>florczi97@gmail.com</a></span></li>
+            <li class="customerli"><a class="hovereffect " href="https://www.instagram.com/florcifodor/"> <i class="faa-flash animated-hover fa fa-instagram fa-4x" aria-hidden="true"></i><span>Instagram</a></span></li>
+            <li class="customerli"><a class="hovereffect " href="https://www.facebook.com/flora.fodor.71"><i class="fa fa-facebook-official fa-4x faa-vertical animated-hover" aria-hidden="true"></i> <span>Facebook</a></span></li>
+            
+          </ul>
+      </div>
+       <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <ul id="devicons">
+            <li><p class="devtitle">Mark Stybaniewicz (Fullstack Developer)</p></li>
+            <li class="devli "><a class="hovereffect" href="mailto:mark.sty94@gmail.com?Subject=Dear%20Mark" target="_top"><i class="fa fa-envelope fa-4x faa-ring animated-hover" aria-hidden="true"></i> <span>mark.sty94@gmail.com</span></a></li>
+            <li class="devli "><a  class="hovereffect" href="https://www.facebook.com/mark.stybaniewicz"><i class=" fa fa-facebook-official fa-4x faa-vertical animated-hover" aria-hidden="true"></i> <span>Facebook</span></a></li>
+            <li class="devli "><a  class="hovereffect" href="https://github.com/Markstyba"><i class="faa-spin animated-hover fa fa-github fa-4x" aria-hidden="true"></i><span>Github</span></a></li>
+            <li class="devli"><a class="hovereffect" href="https://twitter.com/Mark_Stybo?lang=en"><i class="faa-float animated-hover fa fa-twitter fa-4x" aria-hidden="true"></i><span>Twitter</span></a></li>
+          </ul>
+      </div>
+    </footer>
+</div>
+
+<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+<script type="text/javascript" src="js/jquery.tmpl.js"></script>
+<script type="text/javascript" src="js/gallery.js"></script>
+<script type="text/javascript" src="js/3dcarousel.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
+

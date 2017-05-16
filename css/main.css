@@ -1,0 +1,462 @@
+html,body{
+width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+	font-family: 'Abril Fatface', cursive;
+	background-color: #dab296;
+	margin:0px 0px;
+}
+.fadeanimation1{
+	animation: fadeinfirst 4s;
+    -moz-animation: fadeinfirst 4s; /* Firefox */
+    -webkit-animation: fadeinfirst 4s; /* Safari and Chrome */
+    -o-animation: fadeinfirst 4s; /* Opera */
+}
+.fadeanimation2{
+	animation: fadeinsecond 6s;
+    -moz-animation: fadeinsecond 6s; /* Firefox */
+    -webkit-animation: fadeinsecond 6s; /* Safari and Chrome */
+    -o-animation: fadeinsecond 6s; /* Opera */
+}
+@keyframes fadeinfirst {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadeinfirst { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadeinfirst { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadeinfirst { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes fadeinsecond {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadeinsecond { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadeinsecond { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadeinsecond { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+#hero{
+  background-image:url(../imgs/bigpic12-min.jpg);
+  background-size:cover;
+  position:relative;
+  background-position: center;
+}
+.header{
+  position:absolute;
+  top:30%;
+  text-align:center;
+  width:100%;
+  color:#fff;
+  font-size:36px;
+  -ms-transform: translate(0,-50%); /* IE 9 */
+    -webkit-transform: translate(0,-50%); /* Safari */
+    transform: translate(0,-50%);  
+   background-color: rgba(255,255,255,0.5)
+}
+.header h1,
+.header h3{
+	color: black;
+}
+.secondCarousel{
+	position: relative;
+}
+.main{
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    	background: rgba(255, 255, 255, 0.5);
+	}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: rgba(51, 51, 51, 0);
+    border-color: rgba(0, 0, 0, 0.5);
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: rgba(16, 16, 16, 0);
+}
+.navbar-inverse .navbar-toggle .icon-bar{
+	background-color: black;
+}
+.navbar-inverse{
+	background-image: none;
+	background-color: rgba(0,0,0,0);
+	border: none;
+}
+.container{
+	background-color: rgba(0,0,0,0);
+}
+.tabs-list{
+	margin:0;
+	list-style-type: none;
+	
+}
+.tabs-list li{
+	display: inline-block;
+}
+div.activea{
+	display: block;
+}
+.tab-control{
+	padding:0px, 10px;
+	font-weight: bold;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #e1e4e2;
+	background-color: #e1e4e2;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	color:black;
+}
+.tab-panel{
+	display: none;
+	background-color: #6e7672;
+	color:#E1E4E2;
+	padding:10px;
+	margin: 0px 20px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top:solid 5px #e1e4e2;
+	margin-bottom: 50px;	
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color:#0E0B16;
+	font-weight: bold;
+}
+ .navbar-inverse .navbar-brand {
+	
+	color:#0E0B16;
+	font-weight: bold;
+}
+/*------------------------------------------------------------navanimation-------------*/
+
+.nav .navli a{
+	font-size: 20px;
+	color: #0E0B16;
+    text-decoration: none;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+.nav .navli a:before, .nav .navli a:after{
+	 position: absolute;
+    top: 22px;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    border: 4px solid #a6a6a6;
+    transform: translateX(-50%) translateY(-50%) scale(0.8);
+    border-radius: 50%;
+    background: transparent;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+    z-index: -1;
+}
+.navbar-inverse .navbar-nav>.navli>a:focus, .navbar-inverse .navbar-nav>.navli>a:hover {
+    color: #393939
+}
+.nav .navli a:after{
+	border-width: 2px;
+    transition: all 0.4s;
+}
+.navli a:hover:before{
+	opacity: 1;
+    transform: translateX(-50%) translateY(-50%) scale(1);
+}
+.navli a:hover:after{
+	opacity: 1;
+    transform: translateX(-50%) translateY(-50%) scale(1.3);
+}
+/*---------------------------------navanimation END----------------------*/
+
+
+/*................................galleryCSS........................*/
+.aboutmetitle{
+	color: #461f16;
+    font-weight: bold;
+}
+#myportfolio{
+	margin-bottom: 55px;
+}
+#myportfolio h1{
+	color: #461f16;
+    font-weight: bold;
+}
+#galleryTitle{
+	margin-top: 50px;
+}
+#flickr li{
+	display: inline;
+}
+.galleryBody{
+	height: 100%;
+}
+
+#carousel-example-generic{
+	position: relative;
+}
+.largeimg{
+	margin: 0 auto;
+	border: 2px solid #54595c;
+	
+}
+#flickrgallery{
+	height: 600px;
+	margin-top: 20px;
+}
+.myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    max-width: 150px;
+    max-height: 100px;
+    margin: 5px;
+    border: 2px solid #54595c;
+}
+
+
+.myImg:hover {opacity: 0.7;}
+
+.scrollinfo{
+	display: none;
+}
+
+/*........................aboutme................*/
+.parallax2{
+	background-image: url(../imgs/floratif-min.jpg);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 400px;
+	width: 100%;
+}
+.parallax3{
+	background-image: url(../imgs/bigpic17.jpg);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	height: 400px;
+	width: 100%;
+}
+.parallax1{
+	background-image: url(../imgs/bigpic10.jpg);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	height: 500px;
+	width: 100%;
+}
+
+.aboutme2{
+	height: 100%;
+	width: 100%;
+	border-bottom: 3px solid;
+
+}
+.aboutme3{
+	height: 100%;
+	width: 100%;
+	border: 3px solid;
+}
+.aboutme4{
+	height: 100%;
+	width: 100%;
+	border: 3px solid;
+}
+.aboutme1text{
+	position: relative; 
+	font-size: 15px;
+	color:#461f16;
+}
+.aboutme2front{
+	position: relative;
+	font-size: 25px;
+	color:#461f16;
+}
+.aboutme2text{
+
+}
+.aboutme3text{
+	position: relative;
+
+	font-size: 25px;
+	color:#461f16;
+}
+.aboutme4text{
+	position: relative;
+	font-size: 25px;
+	color:#461f16;
+}
+/*....................video.......................*/
+.videosection{
+	border: 3px solid;
+}
+.vidtitle{
+	color: #461f16;
+    font-weight: bold;
+
+}
+.video{
+	max-height: 700px;
+	max-width: 1000px;
+	margin: auto;
+}
+.video iframe{
+	height: 400px;
+	width: 100%;
+}
+/*.......................footer..........*/
+.contacttitle{
+	color: white;
+}
+.fa{
+	color: #dab296;
+}
+#icons{
+	height: 300px;
+	background-color: #461f16;
+	border: 3px solid;
+}
+.fa-envelope{
+	margin-left: 30px;
+}
+#devicons{
+	list-style: none;
+}
+#devicons .devli{
+	display: inline-block;
+	margin:0 20px;
+}
+#devicons .devli span{
+	display: block;
+	color: white;
+}
+#customericons{
+	list-style: none;
+}
+#customericons .customerli{
+	display: inline-block;
+	margin:0 20px;
+}
+#customericons .customerli span{
+	display: block;
+	color: white;
+}
+.customertitle,
+.devtitle{
+	font-weight: bold;
+	color:white;
+	font-size: 14px;
+	text-decoration: underline;
+}
+.flipeffect:hover{
+	text-decoration: underline;
+	color:#dab296;
+}
+@media( max-width: 524px){
+	#icons{
+		height: 500px;
+	}
+}
+@media( min-width: 1049px){
+	#icons{
+		height: 200px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1049px){
+	#icons{
+		height: 260px
+	}
+}
+@media (max-width: 1066px){
+	#flickr {
+		display: flex;
+		overflow: scroll;
+		padding: 0;
+	}
+	.scrollinfo{
+		display: block;
+	}
+}
+@media (max-width: 444px){
+	#devicons .devli{
+	margin:0 5px;
+	}
+	#customericons .customerli{
+	
+	margin:0 5px;
+	}
+}
+@media (max-width: 194px){
+	.navbar-brand{
+		font-size: 10px;
+	}
+}
+@media(max-width: 767px){
+	#flickrgallery{
+		height: 450px;
+	}
+	.nav li a:before, .nav li a:after {
+		left:15%;
+	}
+	
+	
+}
